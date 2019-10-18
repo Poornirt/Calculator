@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0E0E0"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/seven"
+            style="@style/numberStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/_7" />
+
+        <TextView
+            android:id="@+id/four"
+            style="@style/numberStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_4" />
+
+        <TextView
+            android:id="@+id/one"
+            style="@style/numberStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_1" />
+
+        <TextView
+            android:id="@+id/zero"
+            style="@style/numberStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_0" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/eight"
+            style="@style/numberStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_8" />
+
+        <TextView
+            android:id="@+id/five"
+            style="@style/numberStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_5" />
+
+        <TextView
+            android:id="@+id/two"
+            style="@style/numberStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_2" />
+
+        <TextView
+            android:id="@+id/dot"
+            style="@style/numberStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dot" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/nine"
+            style="@style/numberStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_9" />
+
+        <TextView
+            android:id="@+id/six"
+            style="@style/numberStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_6" />
+
+        <TextView
+            android:id="@+id/three"
+            style="@style/numberStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_3" />
+
+        <TextView
+            android:id="@+id/equal"
+            style="@style/numberStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/equal" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#9E9E9E" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/clear"
+            style="@style/numberStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_margin="0dp"
+            android:src="@drawable/clearsymbol" />
+
+        <ImageView
+            android:id="@+id/divide"
+            style="@style/numberStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_margin="0dp"
+            android:src="@drawable/divide" />
+
+        <ImageView
+            android:id="@+id/multiply"
+            style="@style/numberStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_margin="0dp"
+            android:src="@drawable/multiply" />
+
+        <ImageView
+            android:id="@+id/subtract"
+            style="@style/numberStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_margin="0dp"
+            android:src="@drawable/subtract" />
+
+        <ImageView
+            android:id="@+id/plus"
+            style="@style/numberStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_margin="0dp"
+            android:src="@drawable/plus" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
